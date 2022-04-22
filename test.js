@@ -111,3 +111,21 @@ const task3 = (mat) => {
 // ];
 
 // console.log(task3(m));
+
+// Task 6
+
+const task6 = (arr) => {
+  let hashTable = {};
+  let res = [];
+
+  for (let item of arr) {
+    hashTable[item] = true;
+  }
+
+  for (let i = 0; i < 100; i++) {
+    if (!hashTable[i]) {
+      res.push(i);
+    }
+  }
+  return res;
+};
