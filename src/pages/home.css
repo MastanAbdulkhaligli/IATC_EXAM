@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+}
+
+.items .item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.item img {
+  width: 30px;
+  height: 30px;
+}
+
+.item h4 {
+  margin-right: 10px;
+}
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search h1 {
+  margin-left: 600px;
+}
+.search input {
+  margin-left: 650px;
+  margin-bottom: 30px;
+}
